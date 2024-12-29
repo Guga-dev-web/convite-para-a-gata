@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FF9800;  /* Cor de fundo laranja */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+#feedback {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#response {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+#clock {
+  position: absolute;  /* Para permitir o posicionamento fixo ou personalizado */
+  top: 20px;  /* Distância do topo da página */
+  right: 20px;  /* Distância da borda direita da página */
+  font-size: 18px;  /* Tamanho da fonte do relógio */
+  color: #fff;  /* Cor do texto */
+  font-weight: bold;
+}
